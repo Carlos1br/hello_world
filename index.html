@@ -10,37 +10,38 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/_Hello_World__-logo.png" alt="logo"></a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Friends</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link " href="#">Experiences</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link " href="#">Contato</a>
-                </li>   
-            </ul>
-            <div class="navbar-nav">
-                <div class="photo"></div>
-                <a href="#" class="nav-link">First Name</a>
-            </div>
+    <section class="logo">
+        <a href="#"><img src="img/_Hello_World__-logo-white.png" alt=""></a>
+        <p><a href="#">Cadastre-se aqui!</a></p>
+    </section>
+    <div class="container">
+        <div class="row">
+            <section class="login rounded">
+                <div col-12>
+                    <div class="photo-perfil"></div>
+                    <section class="credencials">
+                        <div class="form-group col-12 mt-4">
+                            <label for="id"></label>
+                            <input type="text" name="id" class="form-control" placeholder="Id/e-mail">
+                        </div>
+                        <div class="form-group col-12 ">
+                            <label for="senha"></label>
+                            <input type="password" class="form-control" name="senha" class="form" placeholder="sua senha">
+                        </div>
+                        <a name="sign" class="sign btn btn-primary btn-sm" href="perfil.html" role="button">Sign</a>
+                    </section>
+                </div>
+                
+            </section>
         </div>
-    </nav>
+    </div>
+
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

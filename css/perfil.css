@@ -1,0 +1,71 @@
+.photo{
+    width: 50px;
+    height:50px;
+    border: 2px solid #000;
+    /* background-image: url(../img/loading.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.photo img{
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand img{
+    width: 120px;
+    
+}
+body{
+    
+    background-color: #607D8B;
+}
+.feed{
+    border: 2px solid #757575;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.post{
+    border-top: 2px dashed black;
+}
+
+.yourself{
+    width: 80%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #455A64;
+    padding: 10px;
+    
+}
+
+@media(max-width: 765px){
+    .yourself{
+        display: none;
+    }
+}
+
+.yourself a{
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+.right{
+    position: fixed;
+    right: 20px;
+}
+
+.info a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.info p:hover{
+    color: #BDBDBD;
+    transform: translate(0, -5px);
+    transition: 0.8s;
+    
+}
