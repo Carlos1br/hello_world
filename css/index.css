@@ -46,62 +46,17 @@ background-color: #455A64;
     box-sizing: border-box;
 }
 
-/* @media(max-width: 1000px){
-    .photo-perfil{
-        width: 100px;
-        height: 100px;
-    }
-}
-
-@media(max-width: 1000px){
-    .login{
-        
-        height: 350px;
-    }
-}
-
-
-@media(max-width: 500px){
-    .photo-perfil{
-        width: 50px;
-        height: 50px;
-    }
-} */
-
-@media  (min-width: 300px) and (max-width: 500px){
-    body{
-        margin: 0;
-        padding: 0;
-    }
+@media(min-width:300px) and (max-width: 765px){
     .login{
         width: 100vw;
         height: 100vh;
-        margin-left: 7px;
-        position: absolute;
+        margin: 0;
     }
-    .photo-perfil{
-        width: 100%;
-        height: 300px;
-        border-radius: 150px;
-        margin-right: 70px;
-    }
-    .credencials input{
-        width: 100px;
-        height: 100px;
-        position: relative;
-        right: 0;
+
+    .logo img{
+        width: 200px;
     }
 }
-
-@media (max-width: 500px){
-    .credencials input{
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        right: 0;
-    }
-}
-
 .credencials{
  position: relative
 }
