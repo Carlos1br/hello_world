@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/friends.css">
 </head>
 
 <body>
@@ -44,54 +45,66 @@
     <div class="container">
         <div class="row">
             <section class="col-12 col-md-8">
-                <div class="feed mt-1 mb-3">
-                    <div class="another-user d-flex align-items-center">
-                        <div class="photo mr-2"><img src="img/menino-aleatório.png" alt=""></div>
-                        <a href="#">Hugo da silva</a>
+                <div class="friend-view">
+                    <div class="friend">
+                        <div class="base-friend">
+                            <div class="photo mr-2"><img src="img/menino-aleatório.png" alt=""></div>
+                            <a href="#">Hugo da silva</a>
+                        </div>
+                        <section class="friend-info">
+                            <p><a href="#">publications</a></p>
+                            <p><a href="#">expiriences</a></p>
+                            <p><a href="friends.html">Friends</a></p>
+                        </section>
                     </div>
-                    <p class="lead">Novas maneiras para analises</p>
-                    <div class="post">
-                        <img src="img/analysis.svg" class="img-fluid" alt="">
+                    <div class="friend">
+                        <div class="base-friend">
+                            <div class="photo mr-2"><img src="img/tonynho.jpg" alt=""></div>
+                            <a href="#">Tony Stark</a>
+                        </div>
+                        <section class="friend-info">
+                            <p><a href="#">publications</a></p>
+                            <p><a href="#">expiriences</a></p>
+                            <p><a href="friends.html">Friends</a></p>
+                        </section>
                     </div>
-                </div>
-                <div class="feed mt-1 mb-3">
-                    <div class="another-user d-flex align-items-center">
-                        <div class="photo mr-2"><img src="img/tonynho.jpg" alt=""></div>
-                        <a href="#">Tony Stark</a>
+                    <div class="friend">
+                        <div class="base-friend">
+                            <div class="photo mr-2"><img src="img/menina_aleatória.jpg" alt=""></div>
+                            <a href="#">Larissa Regina</a>
+                        </div>
+                        <section class="friend-info">
+                            <p><a href="#">publications</a></p>
+                            <p><a href="#">expiriences</a></p>
+                            <p><a href="friends.html">Friends</a></p>
+                        </section>
                     </div>
-                    <p class="lead">Matéria maneirassa sobre contribuição em desenvolvimento!</p>
-                    <div class="post">
-                        <img src="img/contribuite.svg" class="img-fluid" alt="">
+                    <div class="friend">
+                        <div class="base-friend">
+                            <div class="photo mr-2"><img src="img/robozaum.jpg" alt=""></div>
+                            <a href="#">Cristiano Ronaldo</a>
+                        </div>
+                        <section class="friend-info">
+                            <p><a href="#">publications</a></p>
+                            <p><a href="#">expiriences</a></p>
+                            <p><a href="friends.html">Friends</a></p>
+                        </section>
                     </div>
-                </div>
-                <div class="feed mt-1 mb-3">
-                    <div class="another-user d-flex align-items-center">
-                        <div class="photo mr-2"><img src="img/menina_aleatória.jpg" alt=""></div>
-                        <a href="#">Larissa Regina</a>
+                    <div class="friend">
+                        <div class="base-friend">
+                            <div class="photo mr-2"><img src="img/robin.jpg" alt=""></div>
+                            <a href="#">robin scherbatsky</a>
+                        </div>
+                        <section class="friend-info">
+                            <p><a href="#">publications</a></p>
+                            <p><a href="#">expiriences</a></p>
+                            <p><a href="friends.html">Friends</a></p>
+                        </section>
                     </div>
-                    <p class="lead">Desenvolvimento para todos! ♀♂</p>
-                    <div class="post">
-                        <img src="img/devgemless.svg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="feed mt-1 mb-3">
-                    <div class="another-user d-flex align-items-center">
-                        <div class="photo mr-2"><img src="img/robozaum.jpg" alt=""></div>
-                        <a href="#">Cristiano Ronaldo</a>
-                    </div>
-                    <p class="lead">Novas tecnicas de estudos para Devs!</p>
-                    <div class="post">
-                        <img src="img/loading.svg" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="feed mt-1 mb-3">
-                    <div class="another-user d-flex align-items-center">
-                        <div class="photo mr-2"><img src="img/robin.jpg" alt=""></div>
-                        <a href="#">robin scherbatsky</a>
-                    </div>
-                    <p class="lead">Codigo limpo, APP leve como uma folha!</p>
-                    <div class="post">
-                        <img src="img/undraw_programming_2svr.svg" class="img-fluid" alt="">
+                    <div class="friend">
+                        <div class="friends-add">
+                            <img src="img/add.svg" alt="add">
+                        </div>
                     </div>
                 </div>
             </section>
@@ -101,7 +114,7 @@
                         <div class="photo mr-3"><img src="img/eu.jpg" alt="photo"></div>
                         <a href="#">Carlos Henrique de Souza</a>
                     </div>
-                    
+
                     <div class="info pl-5">
                         <p><a href="#">News Feed</a></p>
                         <p><a href="#">Chats(3)</a></p>
@@ -111,17 +124,19 @@
                 </div>
                 <div class="chat">
                     <div class="chat-number">3</div>
-                    
+
                 </div>
             </div>
         </div>
     </div>
     <footer>
-            <p><img src="img/_Hello_World__-logo.png" alt="logo">&copy; </p>
-            <p>De Dev para Devs</p>
-            <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a><p>
+        <p><img src="img/_Hello_World__-logo.png" alt="logo">&copy; </p>
+        <p>De Dev para Devs</p>
+        <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            <p>
     </footer>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

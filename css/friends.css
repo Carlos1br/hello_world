@@ -1,0 +1,64 @@
+.friend-view{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: center;
+flex-wrap: wrap;
+}
+
+.friend{
+width: 300px;
+height: 200px;
+border: 2px solid black;
+margin: 5px;
+background-color: #CFD8DC;
+padding: 10px;
+align-items: baseline;
+}
+
+.base-friend{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.base-friend a{
+    text-decoration: none;
+    color: #000;
+}
+
+.friend-info{
+    padding-left: 60px;
+}
+
+.friend-info a{
+    text-decoration: none;
+    color: #455A64;
+}
+
+.friend-info p:hover{
+    
+    transform: translate(0, -5px);
+    transition: 0.8s;
+    
+}
+
+.friend-info a:hover{
+    color: #FFF;
+}
+
+.friends-add{
+    
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.friends-add img{
+    width: 65%;
+    position:relative;    
+}
